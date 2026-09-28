@@ -1,1 +1,4 @@
-.DS_Store
+curl https://condavedyson1790044320.zendesk.com/api/v2/oauth/tokens.json \
+-H "Content-Type: application/json" \
+-d '{"token": {"client_id": "53880659796244", "scopes": ["read", "write"]}}' \
+-u 'dave.dyson@goenvoy.co:#Btaisnumber1'
